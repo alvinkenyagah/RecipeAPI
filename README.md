@@ -32,9 +32,6 @@ The entities in the project contain the following relationships:
 
 - `sudo service postgresql start`
 
-- ### Ruby 
-
-
 ### Setup
 
 - `git clone https://github.com/alvinkenyagah/RecipeAPI.git`
