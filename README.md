@@ -10,6 +10,9 @@ The entities in the project contain the following relationships:
 
 - A `User` has many `Recipes` 
 
+### Endpoints
+
+
 ## Requirement 
 
 - ### Postgreql
@@ -36,6 +39,7 @@ The entities in the project contain the following relationships:
 
 - `git clone https://github.com/alvinkenyagah/RecipeAPI.git`
 - `cd RecipeAPI`
+- ` bundle lock --add-platform x86_64-linux --add-platform ruby`
 - `sudo bundle install`
 - `rails db:migrate`
 - `rails db:seed`
