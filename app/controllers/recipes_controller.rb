@@ -23,14 +23,18 @@ class RecipesController < ApplicationController
   end
 
   def show_by_title
-    recipe = Recipe.find_by(title: params[:title])
-
-    if recipe
-      render json: recipe.to_json(include: { user: { only: :name } })
+    keyword = params[:title]
+  
+    # Use ILIKE to perform a case-insensitive search for recipes that contain the keyword
+    recipes = Recipe.where("title ILIKE ?", "%#{keyword}%")
+  
+    if recipes.any?
+      render json: recipes.to_json(include: { user: { only: :name } })
     else
-      render json: { error: "Recipe not found" }, status: :not_found
+      render json: { error: "No recipes found for the provided keyword" }, status: :not_found
     end
   end
+  
 
 
   def show_by_tag
