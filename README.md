@@ -41,6 +41,7 @@ The entities in the project contain the following relationships:
 - `cd RecipeAPI`
 - `sudo bundle install`
 - `rails db:migrate`
+- `rails db:seed`
 - `rails s`
   
 
