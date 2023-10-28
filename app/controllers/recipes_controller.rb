@@ -47,6 +47,16 @@ class RecipesController < ApplicationController
     end
   end
 
+
+    # PATCH /recipes/:id
+    def update
+      recipe = Recipe.find_by(id: params[:id])
+      recipe.update(recipe_params)
+        render json: recipe
+       
+    end
+  
+
   private
 
   def recipe_params
