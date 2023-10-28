@@ -84,3 +84,4 @@ production:
   database: RecipeAPI_production
   username: RecipeAPI
   password: <%= ENV["RECIPEAPI_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
