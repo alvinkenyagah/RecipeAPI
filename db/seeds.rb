@@ -28,7 +28,7 @@ Recipe.create(
   cuisine: 'Russian',
   course: 'Main Course',
   tags: 'Beef, Stroganoff, Russian',
-  image_url: 'https://example.com/beef_stroganoff.jpg',
+  image_url: 'https://www.oliviascuisine.com/wp-content/uploads/2019/02/classic-beef-stroganoff-735x1103.jpg',
   nutritional_info: { calories: 450, fat: 20, carbohydrates: 35, protein: 30, fiber: 3 },
   source: 'TasteofRussia.com',
   user: user1
@@ -54,7 +54,7 @@ Recipe.create(
   cuisine: 'Italian',
   course: 'Main Course',
   tags: 'Pizza, Margarita, Italian',
-  image_url: 'https://example.com/margarita_pizza.jpg',
+  image_url: 'https://www.kimscravings.com/wp-content/uploads/2020/01/Margherita-Pizza-4.jpg',
   nutritional_info: { calories: 400, fat: 18, carbohydrates: 40, protein: 15, fiber: 3 },
   source: 'ItalianPizzaRecipes.com',
   user: user2
@@ -81,7 +81,7 @@ Recipe.create(
   cuisine: 'Italian',
   course: 'Main Course',
   tags: 'Chicken, Alfredo, Italian',
-  image_url: 'https://example.com/chicken_alfredo.jpg',
+  image_url: 'https://www.saltandlavender.com/wp-content/uploads/2017/11/parmesan-chicken-alfredo-recipe-4-768x1152.jpg',
   nutritional_info: { calories: 600, fat: 35, carbohydrates: 45, protein: 40, fiber: 2 },
   source: 'ItalianKitchenMasters.com',
   user: user3
@@ -108,7 +108,7 @@ Recipe.create(
   cuisine: 'Asian',
   course: 'Main Course',
   tags: 'Stir-Fry, Vegetarian, Asian',
-  image_url: 'https://example.com/vegetable_stir_fry.jpg',
+  image_url: 'https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry3.jpg',
   nutritional_info: { calories: 300, fat: 12, carbohydrates: 30, protein: 15, fiber: 6 },
   source: 'AsianCuisineDelights.com',
   user: user4
@@ -137,7 +137,7 @@ Recipe.create(
   cuisine: 'Dessert',
   course: 'Snack',
   tags: 'Cookies, Chocolate Chip, Dessert',
-  image_url: 'https://example.com/chocolate_chip_cookies.jpg',
+  image_url: 'https://www.thecurvycarrot.com/wp-content/uploads/2011/05/IMG_5919.jpg',
   nutritional_info: { calories: 120, fat: 7, carbohydrates: 15, protein: 1, fiber: 0 },
   source: 'BakingBliss.com',
   user: user5
